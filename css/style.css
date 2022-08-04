@@ -1,0 +1,106 @@
+/* fuentes de Google Fonts 
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;700&family=Montserrat:wght@500;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+#error {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+}
+
+#picture-section {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#picture-section img {
+    width: 80%;
+    max-width: 300px;
+}
+
+#message-section {
+    padding: 0 1rem 1rem 1rem;
+    height: 50%;
+}
+
+#message-section h1 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: -0.035em;
+}
+
+#message-section p {
+    font-family: 'Space Mono', monospace;
+    margin: 5% 20% 10% 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+}
+
+#back-button {
+    font-family: 'Space Mono';
+    padding: 1rem;
+    border: 0px;
+    background-color: #333333;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #picture-section img {
+        max-width: none;
+    }
+}
