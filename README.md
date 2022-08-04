@@ -30,20 +30,12 @@
 - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
 ![screenshot](https://github.com/oscarmumm/devChallenges-404-not-found/blob/9e24257d07584b2a3c5b8e227133243ea7c5e9f9/screenshot-404-not-found.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
